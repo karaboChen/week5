@@ -1,0 +1,38 @@
+.navbar{
+  position: fixed;
+  max-width: 250px;
+  min-height: 100vh;
+}
+
+.index{
+  position: relative;
+}
+.index::before{
+  content: "";
+  position: absolute;
+  height: 30px;
+  border-left: 5px solid green;
+  left: -2%;
+}
+.circle{
+  border-radius:50% ;
+  width: 40px;
+  height: 40px;
+}
+.fs-5{
+  margin-bottom: 0;
+}
+.txt{
+  width: 85%;
+}
+.ws{
+  font-size: 14px;
+  line-height: 21px;
+}
+.br {
+  outline: 1px solid red;
+}
+
+.page{
+  margin-top: 100px;
+}
